@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+/*font-family: 'Inspiration', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Shadows+Into+Light&display=swap');
+/*font-family: 'Shadows Into Light', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inspiration&family=Shadows+Into+Light&display=swap');
+/*font-family: 'Shadows Into Light', cursive;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    
+    height: 97vh;
+    width: 100vw;
+    background-image: url(../picture/baloes.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed ;
+    position: relative;
+}
+
+h1{
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h2{
+    text-align: left;
+    font-family: 'Inspiration', cursive;
+    padding-left: 15px;
+}
+
+p{
+    text-align: center;
+    align-items: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.2em;
+    
+}
+
+body>div{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.507);
+    height: 60vh;
+    width: 70vw;
+    text-align: center;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+div.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    text-align: center;
+    padding: 5px;
+}
+
+
+div.div-formulario input{
+    width: 100%;
+    height: 30px;
+    margin: 1px;
+    border-radius: 5px;
+    border: none;
+}
+
+div.div-formulario >input:focus{
+    background-color: rgba(255, 68, 0, 0.247);
+    color: rgb(255, 255, 255);
+}
+
+div.button button{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    color: white;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 68, 0);
+    
+}
+
+button > a{
+    color: white;
+}
+
+div.icon-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+div.icon-social> a > img{
+    height: 25px;
+}
+
+footer{
+    font-size: 12px;
+}
