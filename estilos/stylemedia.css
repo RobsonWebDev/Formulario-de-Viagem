@@ -5,10 +5,20 @@
         height: 400px;
         padding: 10px;
     }
+    div > h2{
+        font-size: 1.5em;
+    }
+    div > p{
+        font-size: 1.2em;
+    }
 }
 
 
 @media only screen and (min-width: 992px) {
+    div > h1{
+        font-size: 3em;
+    }
+
     body>div.container{
         width: 30vw;
         height: 90vh;
