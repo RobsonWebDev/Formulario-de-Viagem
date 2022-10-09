@@ -28,26 +28,27 @@ body{
 
 h1{
     font-family: 'Shadows Into Light', cursive;
+    font-size: 2em;
 }
 
 h2{
     text-align: left;
     font-family: 'Inspiration', cursive;
-    padding-left: 15px;
+    font-size: 1.2em;
 }
 
 p{
     text-align: center;
     align-items: center;
     font-family: 'Shadows Into Light', cursive;
-    font-size: 1.2em;
+    font-size: 0.8em;
     
 }
 
 body>div{
     position: absolute;
     background-color: rgba(255, 255, 255, 0.507);
-    height: 60vh;
+    height: 80vh;
     width: 70vw;
     text-align: center;
     border-radius: 10px;
